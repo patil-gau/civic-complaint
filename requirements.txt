@@ -1,0 +1,6 @@
+djangorestframework_simplejwt==4.6.0
+Django==3.2
+dj_database_url==0.5.0
+djangorestframework==3.12.4
+django-cors-headers==3.7.0
+mysqlclient==2.0.3
