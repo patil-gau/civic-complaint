@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'civic_complaint.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'patilgau$civic_complaints',
+        'NAME': "patilgau$civic_complaints",
         'USER': 'patilgau',
-        'PASSWORD': '',
+        'PASSWORD': 'helloworld',
         'HOST': 'patilgau.mysql.pythonanywhere-services.com',
         'PORT': 3306,
         'OPTIONS': {
