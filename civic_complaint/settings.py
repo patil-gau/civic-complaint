@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'civic_complaint.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'civic_complaints',
-        'USER': 'root',
+        'NAME': 'patilgau$civic_complaints',
+        'USER': 'patilgau',
         'PASSWORD': '',
-        'HOST': 'localhost',
+        'HOST': 'patilgau.mysql.pythonanywhere-services.com',
         'PORT': 3306,
         'OPTIONS': {
             'read_default_file': '/opt/lampp/etc/my.cnf',
